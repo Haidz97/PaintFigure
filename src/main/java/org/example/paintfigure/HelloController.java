@@ -106,7 +106,6 @@ public class HelloController {
         gc.strokeOval(10, 70, 50, 30);
         // закрашивание овала
         gc.fillOval(100, 70, 50, 30);
-
     }
 
     @FXML
@@ -115,8 +114,5 @@ public class HelloController {
         if (currentFigure != null) {
             currentFigure.updateColor(colorPicker.getValue());
         }
-
-
-
     }
 }

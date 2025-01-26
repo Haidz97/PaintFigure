@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b85a8b5-dfc5-46c4-9958-33b98b7f2174" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/Oval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/paintfigure/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/paintfigure/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/paintfigure/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
