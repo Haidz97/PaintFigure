@@ -1,4 +1,4 @@
-package com.example.paintfigure;
+package org.example.paintfigure;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;

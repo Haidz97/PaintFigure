@@ -1,4 +1,4 @@
-package com.example.paintfigure;
+package org.example.paintfigure;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

@@ -1,4 +1,4 @@
-module com.example.paintfigure {
+module org.example.paintfigure {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.desktop;
