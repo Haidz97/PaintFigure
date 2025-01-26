@@ -16,8 +16,4 @@ class Rectangle extends Shape {
     void updateColor(Color newColor) {
         super.color = newColor;
     }
-
-
-
-
 }

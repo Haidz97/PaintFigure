@@ -2,8 +2,9 @@ package org.example.paintfigure;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
+import javafx.scene.control.Button;
 
-abstract class Shape {
+abstract class Shape  {
 
     protected Color color;
 
