@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.geometry.Point3D?>
-<?import javafx.scene.canvas.Canvas?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ColorPicker?>
-<?import javafx.scene.layout.FlowPane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
 
-<VBox alignment="CENTER" maxHeight="700.0" minHeight="500" prefHeight="593.0" prefWidth="940.0" spacing="0.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.paintfigure.HelloController">
+<VBox alignment="CENTER" maxHeight="700.0" minHeight="500" prefHeight="593.0" prefWidth="940.0" spacing="0.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.paintfigure.HelloController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
@@ -22,6 +20,9 @@
     <Button mnemonicParsing="false" onAction="#onClickLine" prefHeight="53.0" prefWidth="124.0" text="Линия" />
     <Button mnemonicParsing="false" onAction="#onClickTriangle" prefHeight="53.0" prefWidth="124.0" text="Треугольник" />
     <Button mnemonicParsing="false" onAction="#onClickOval" prefHeight="54.0" prefWidth="186.0" text="Овал" />
-    <ColorPicker fx:id="colorPicker" onAction="#onColorChanged" />
+    <ColorPicker fx:id="colorPicker" onAction="#onColorChanged">
+         <value>
+            <Color red="1.0" green="0.03333333507180214" />
+         </value></ColorPicker>
   </FlowPane>
 </VBox>
