@@ -59,13 +59,13 @@ public class HelloController {
         // Очистим холст
         gc.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
         // установка толщины линии
-        gc.setLineWidth(6.0);
+        gc.setLineWidth(10.0);
         // установка цвета
-        gc.setFill(Color.RED);
+        gc.setFill(Color.CYAN);
         // рисование скругленного прямоугольника
-        gc.strokeRoundRect(10, 10, 50, 50, 10, 10);
+        gc.strokeRoundRect(500, 250, 50, 50, 10, 10);
         // закрашивание скругленного прямоугольника
-        gc.fillRoundRect(100, 10, 50, 50, 10, 10);
+        gc.fillRoundRect(500, 250, 50, 50, 10, 10);
         // установка цвета заполнения
         gc.setFill(Color.BLACK);
     }
@@ -120,10 +120,12 @@ public class HelloController {
         gc = canvas.getGraphicsContext2D();
         // Очистим холст
         gc.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
+        //Установка цвета заливки
+        gc.setFill(Color.RED);
         // рисование овала
-        gc.strokeOval(10, 70, 50, 30);
+        gc.strokeOval(700, 200, 50, 30);
         // закрашивание овала
-        gc.fillOval(100, 70, 50, 30);
+        gc.fillOval(700, 200, 50, 30);
 
     }
 
