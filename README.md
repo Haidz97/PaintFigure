@@ -103,7 +103,7 @@ public class HelloController {
         // Закроем путь, соединив последнюю точку с первой
         gc.closePath();
         // Установим цвет заливки
-        gc.setFill(javafx.scene.paint.Color.BLUE);
+        gc.setFill(Color.GREEN);
         // Заливка треугольника
         gc.fill();
         // Установим цвет обводки
@@ -126,7 +126,6 @@ public class HelloController {
         gc.strokeOval(700, 200, 50, 30);
         // закрашивание овала
         gc.fillOval(700, 200, 50, 30);
-
     }
 
     @FXML
